@@ -8,6 +8,8 @@ environment:
 
 dependencies:
   ffi: ^2.0.1
+  galaxeus_lib: ^0.0.57
+  path: ^1.8.3
   
 dev_dependencies:
   lints: ^2.0.0

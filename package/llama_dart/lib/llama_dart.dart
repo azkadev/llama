@@ -4,11 +4,7 @@ import 'dart:ffi';
 import 'dart:io';
 
 import 'package:ffi/ffi.dart';
-
-int calculate() {
-  return 6 * 7;
-}
-
+ 
 
 typedef PrintNative = Void Function(Pointer<Utf8> data);
 typedef PrintDart = void Function(Pointer<Utf8> data);

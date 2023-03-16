@@ -159,7 +159,7 @@ packages:
     source: hosted
     version: "3.2.0"
   galaxeus_lib:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: galaxeus_lib
       sha256: "093354cd0392cd12382c7e9063116433a030e500fa2fe9dc43b72890ca95c015"
@@ -311,7 +311,7 @@ packages:
     source: hosted
     version: "0.0.24"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
