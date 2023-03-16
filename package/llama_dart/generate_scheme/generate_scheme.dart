@@ -5,14 +5,17 @@ import "package:path/path.dart" as path;
 
 void main(List<String> args) async {
   List<Map> scripts = [
-    {
-      "@type": "error",
-      "message": "",
-      "description": ""
-    },
+    {"@type": "error", "message": "", "description": ""},
     {
       "@type": "ok",
-  
+    },
+    {
+      "@type": "ask",
+      "text": "",
+    },
+    {
+      "@type": "answer",
+      "text": ""
     }
   ];
   await jsonToScripts(
