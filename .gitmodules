@@ -1,3 +1,3 @@
-[submodule "llama/native_lib/lib/llama.cpp"]
-	path = llama/native_lib/lib/llama.cpp
+[submodule "native_lib/lib/llama.cpp"]
+	path = native_lib/lib/llama.cpp
 	url = https://github.com/ggerganov/llama.cpp.git
