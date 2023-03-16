@@ -15,9 +15,9 @@ typedef CalculationDart = int Function(int num1, int num2);
 typedef RequestNative = Pointer<Utf8> Function(Pointer<Utf8> data);
 typedef RequestDart = Pointer<Utf8> Function(Pointer<Utf8> data);
 
-class Lib {
+class LLaMa {
   String path_lib = "llama.so";
-  Lib({String? pathLib}) {
+  LLaMa({String? pathLib}) {
     if (pathLib != null) {
       path_lib = pathLib;
     }

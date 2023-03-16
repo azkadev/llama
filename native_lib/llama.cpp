@@ -8,7 +8,7 @@
 #include <iostream>
 #include <stdio.h>
 #include "lib/json/json.hpp"
-// #include "lib/llama.cpp/main.cpp"
+#include "lib/llama.cpp/main.cpp"
 
 using json = nlohmann::json;
 
@@ -52,7 +52,7 @@ extern "C"
     {
 
         print(stringToChar("run program"));
-        // main_data(argc, argv);
+        main_data(argc, argv);
 
         return 0;
     }
