@@ -1,5 +1,5 @@
 name: llama_dart
-description: A library llama dart.
+description: LLaMA (Language Learning for Machine Translation) cross platform library except web.
 version: 0.0.0
 repository: https://github.com/azkadev/llama
 

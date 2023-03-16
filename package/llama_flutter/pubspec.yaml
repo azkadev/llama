@@ -1,5 +1,5 @@
 name: llama_flutter
-description: A new Flutter FFI plugin project.
+description: LLaMA (Language Learning for Machine Translation) cross platform library except web.
 version: 0.0.0
 homepage: https://github.com/azkadev
 repository: https://github.com/azkadev
