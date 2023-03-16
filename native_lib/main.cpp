@@ -10,7 +10,16 @@
 #include <map>
 #include <string>
 #include <vector>
-
+#include <cmath>
+#include <fstream>
+#include <cstdio>
+#include <cstring>
+#include <string>
+#include <thread>
+#include <vector>
+#include <iostream>
+#include <stdio.h>
+#include <stdio.h>
 #if defined(__unix__) || (defined(__APPLE__) && defined(__MACH__))
 #include <signal.h>
 #include <unistd.h>
@@ -884,6 +893,13 @@ extern "C"
 {
     int main(int argc, char **argv)
     {
+        std::cout << argc << std::endl;
+        // std::string s = argv;
+
+        std::cout << argv[1] << std::endl;
+
+        // return 0;
+
         ggml_time_init();
         const int64_t t_main_start_us = ggml_time_us();
 

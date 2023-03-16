@@ -36,4 +36,10 @@ cc  -I.              -O3 -DNDEBUG -std=c11   -fPIC -pthread -mavx -mavx2 -mfma -
 g++ -I. -I./examples -O3 -DNDEBUG -std=c++11 -fPIC -pthread -c lib/llama.cpp/utils.cpp -o utils.o
 g++ -I. -I./examples -O3 -DNDEBUG -std=c++11 -fPIC -pthread llama.cpp ggml.o utils.o -o main 
 
+cc  -I.              -O3 -DNDEBUG -std=c11   -fPIC -pthread -mavx -mavx2 -mfma -mf16c -msse3   -c lib/llama.cpp/ggml.c -o ggml.o
+g++ -I. -I./examples -O3 -DNDEBUG -std=c++11 -fPIC -pthread -c lib/llama.cpp/utils.cpp -o utils.o
+g++ -I. -I./examples -O3 -DNDEBUG -std=c++11 -fPIC -pthread main.cpp ggml.o utils.o -o main 
+
+
+
  -->
