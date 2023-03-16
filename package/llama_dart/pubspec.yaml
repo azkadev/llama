@@ -1,7 +1,7 @@
 name: llama_dart
-description: A sample command-line application.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: A library llama dart.
+version: 0.0.0
+repository: https://github.com/azkadev/llama
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
@@ -12,8 +12,8 @@ dependencies:
 
 dev_dependencies:
   lints: ^2.0.0
-  msix: ^1.0.2
-  packagex: ^0.0.23
+  msix: ^3.9.1
+  packagex: ^0.0.24
   test: ^1.21.0
 
 msix_config: 
