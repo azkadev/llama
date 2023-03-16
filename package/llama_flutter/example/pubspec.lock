@@ -195,6 +195,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  llama_flutter:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.0"
   matcher:
     dependency: transitive
     description:
@@ -235,21 +242,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
-  llama_flutter:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.0"
   packagex:
     dependency: "direct dev"
     description:
       name: packagex
-      sha256: "3442c98e144df13abcbffcf8f31f5eda596cbdc6e9e60ed528af7b512ec11816"
+      sha256: cdfc930d5051dbff178cfdf09bf9df6bd675964c1e12a483d0b7cea962801b39
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.23"
+    version: "0.0.24"
   path:
     dependency: transitive
     description:
