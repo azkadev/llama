@@ -8,12 +8,14 @@
 #include <iostream>
 #include <stdio.h>
 #include "lib/json/json.hpp"
+// #include "lib/llama.cpp/main.cpp"
+
 using json = nlohmann::json;
 
 char *jsonToChar(json jsonData)
 {
     std::string result = jsonData.dump();
-    char * ch = new char[result.size() + 1];
+    char *ch = new char[result.size() + 1];
     strcpy(ch, result.c_str());
     return ch;
 }
@@ -46,9 +48,12 @@ extern "C"
         json jsonBody = json::parse(data);
         return jsonToChar(jsonBody);
     }
-    int main(){
+    int main(int argc, char **argv)
+    {
 
-        print(stringToChar("oke"));
+        print(stringToChar("run program"));
+        // main_data(argc, argv);
+
         return 0;
     }
 }
