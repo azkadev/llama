@@ -1,0 +1,36 @@
+name: llama_dart
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  ffi: ^2.0.1
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  msix: ^1.0.2
+  packagex: ^0.0.23
+  test: ^1.21.0
+
+msix_config: 
+  display_name: llama_dart
+  install_certificate: false
+  # publisher_display_name: Azkadev
+  # identity_name: org.azkadev.llama_dart
+  # msix_version: 0.0.0.0
+  # capabilities: internetClient, location, microphone, webcam
+
+packagex:
+  name: llama_dart
+  dart_target: llama_dart
+  flutter_target: main
+  dart_name: llama_dart
+  flutter_name: llama_dart
+  flutter_commands:
+    obfuscate: true
+    split-debug-info: 0.0.5
+  

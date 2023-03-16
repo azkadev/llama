@@ -1,0 +1,56 @@
+name: llama_flutter
+description: A new Flutter FFI plugin project.
+version: 0.0.0
+homepage: https://github.com/azkadev
+repository: https://github.com/azkadev
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: ">=2.11.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  ffi: ^2.0.1
+  ffigen: ^6.1.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  packagex: ^0.0.23
+  msix: ^3.9.1
+
+flutter: 
+  plugin:
+    platforms:
+      android:
+        ffiPlugin: true
+      ios:
+        ffiPlugin: true
+      linux:
+        ffiPlugin: true
+      macos:
+        ffiPlugin: true
+      windows:
+        ffiPlugin: true
+ 
+msix_config: 
+  display_name: llama_flutter
+  install_certificate: false
+  # publisher_display_name: Azkadev
+  # identity_name: org.azkadev.llama_flutter
+  # msix_version: 0.0.0.0
+  # capabilities: internetClient, location, microphone, webcam
+
+packagex:
+  name: llama_flutter
+  dart_target: llama_flutter
+  flutter_target: main
+  dart_name: llama_flutter
+  flutter_name: llama_flutter
+  flutter_commands:
+    obfuscate: true
+    split-debug-info: 0.0.5
+  
