@@ -22,7 +22,7 @@ typedef DartMainFunction = int Function(int argc, Pointer<Pointer<Utf8>>);
 void main(List<String> arguments) {
   LLaMa lib = LLaMa(pathLib: "/home/galaxeus/Documents/hexaminate/app/llama/native_lib/build/libllama.so");
   DynamicLibrary dynamicLibrary = lib.library();
-  Args args = Args(["./main", "-h"]);
+  Args args = Args(["./main", "-m", "./ggml-model-q4_0.bin", "-p", "Building a website can be done in 10 simple steps:","-t", "8","-n","512",]);
 
   var test = dynamicLibrary.lookupFunction<NativeMainFunction, DartMainFunction>("main").call(args.args.length, args.toNativeList());
 
