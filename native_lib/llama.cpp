@@ -48,7 +48,7 @@ extern "C"
         json jsonBody = json::parse(data);
         return jsonToChar(jsonBody);
     }
-    int main(int argc, char **argv)
+    int main_data(int argc, char **argv)
     {
 
         print(stringToChar("run program"));

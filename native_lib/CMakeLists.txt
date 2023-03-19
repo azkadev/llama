@@ -10,7 +10,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -pthread")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -pthread -mavx -mavx2 -mfma -mf16c -msse3")
 
 
-add_library(llama SHARED main.cpp)
+add_library(llama SHARED llama.cpp)
 add_library(ggml lib/llama.cpp/ggml.c) 
 add_library(utils lib/llama.cpp/utils.cpp) 
 
