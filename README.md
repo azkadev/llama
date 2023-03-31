@@ -26,3 +26,24 @@ Features yang akan datang
 | NO | OS                                   | CPU             | RAM     |
 |----|--------------------------------------|-----------------|---------|
 | 1  | Ubuntu 20.04                         | AMD RYZEN 5500U | 8GB     |
+
+
+### Development
+
+
+```bash
+git clone https://github.com/azkadev/llama.git --recursive
+cd llama
+```
+
+
+### Build Shared Library
+
+```bash
+cd native_lib
+rm -rf build
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+```
