@@ -12,7 +12,7 @@ Assets yang di perlukan.
 
 | Model      | Disk | Mem |
 |------------|------|-----|
-| Chat GPT $ | 4gb  | -   |
+| Chat GPT 4 | 4gb  | -   |
 
 ### Roadmap Features
 
