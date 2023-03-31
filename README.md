@@ -7,6 +7,11 @@ WIP LLaMA (Language Learning for Machine Translation) adalah proyek riset yang d
 1. [Chat GPT 4](https://github.com/nomic-ai/gpt4all)
 2. [LLaMA](https://github.com/facebookresearch/llama)
 
+## How To Download Models
+
+
+1. [Facebook LLaMA](https://github.com/facebookresearch/llama/pull/73/files)
+
 ### Memory Usage
 
 | Model      | Disk | Mem |

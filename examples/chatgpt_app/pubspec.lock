@@ -152,6 +152,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.0.60"
+  galaxeus_lib_flutter:
+    dependency: "direct main"
+    description:
+      name: galaxeus_lib_flutter
+      sha256: "86cea88d4732d1a8e3c5194654026e0656ce5cabe9214c3016d9886a01ad1103"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.5"
   get_it:
     dependency: transitive
     description:
