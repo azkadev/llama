@@ -4,9 +4,7 @@ WIP LLaMA (Language Learning for Machine Translation) adalah proyek riset yang d
 
 ## Resources
 
-Assets yang di perlukan.
-
-1. [Chat GPT 4 GGML](https://huggingface.co/azkadev/chat-gpt-4-ggml)
+1. [Chat GPT 4](https://github.com/nomic-ai/gpt4all)
 2. [LLaMA](https://github.com/facebookresearch/llama)
 
 ### Memory Usage
