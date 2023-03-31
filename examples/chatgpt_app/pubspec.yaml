@@ -1,0 +1,44 @@
+name: chatgpt_app
+description: A new Flutter project.
+
+version: 0.0.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  galaxeus_lib: ^0.0.60
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  msix: ^3.9.1
+  packagex: ^0.0.25
+flutter:
+  uses-material-design: true
+
+msix_config:
+  display_name: chatgpt_app
+  publisher_display_name: azkadev 
+  identity_name: org.azkadev.app-template
+  msix_version: 0.0.0.1
+  logo_path: assets/logo.jpg
+  languages: id
+  capabilities: internetClient, location, microphone, webcam
+  install_certificate: false  
+
+
+packagex:
+  name: chatgpt_app
+  dart_target: chatgpt_app
+  flutter_target: main
+  dart_name: chatgpt_app
+  flutter_name: chatgpt_app
+  flutter_commands:
+    obfuscate: true
+    split-debug-info: 0.0.5
+  

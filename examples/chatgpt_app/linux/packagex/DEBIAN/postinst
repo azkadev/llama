@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+ln -s /usr/share/app-template/chatgpt_app /usr/bin/app-template
+chmod +x /usr/bin/app-template
+exit 0
