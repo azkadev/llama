@@ -47,3 +47,27 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
 ```
+
+
+### Install Package
+
+Dart
+
+```bash
+dart pub add llama_dart
+```
+
+Flutter:
+
+```bash
+dart pub add llama_flutter
+```
+
+
+### Quickstart
+
+
+```dart
+
+
+```
