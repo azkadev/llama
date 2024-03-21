@@ -1,77 +1,34 @@
-# LLaMA
+IyBMTGFNQQoKV0lQIExMYU1BIChMYW5ndWFnZSBMZWFybmluZyBmb3IgTWFj
+aGluZSBUcmFuc2xhdGlvbikgYWRhbGFoIHByb3llayByaXNldCB5YW5nIGRp
+cHJha2Fyc2FpIG9sZWggRmFjZWJvb2sgQUkgUmVzZWFyY2ggKEZBSVIpIHlh
+bmcgYmVydHVqdWFuIHVudHVrIG1lbmluZ2thdGthbiBrdWFsaXRhcyB0ZXJq
+ZW1haGFuIG1lc2luIG1lbmdndW5ha2FuIHBlbmRla2F0YW4geWFuZyBsZWJp
+aCBhbGFtaSBkYW4gYmVyZm9rdXMgcGFkYSBiYWhhc2EgYXNhbC4KCiMjIFJl
+c291cmNlcwoKMS4gW0NoYXQgR1BUIDRdKGh0dHBzOi8vZ2l0aHViLmNvbS9u
+b21pYy1haS9ncHQ0YWxsKQoyLiBbTExhTUFdKGh0dHBzOi8vZ2l0aHViLmNv
+bS9mYWNlYm9va3Jlc2VhcmNoL2xsYW1hKQoKIyMgSG93IFRvIERvd25sb2Fk
+IE1vZGVscwoKCjEuIFtGYWNlYm9vayBMTGFNQV0oaHR0cHM6Ly9naXRodWIu
+Y29tL2ZhY2Vib29rcmVzZWFyY2gvbGxhbWEvcHVsbC83My9maWxlcykKCiMj
+IyBNZW1vcnkgVXNhZ2UKCnwgTW9kZWwgICAgICB8IERpc2sgfCBNZW0gfAp8
+LS0tLS0tLS0tLS0tfC0tLS0tLXwtLS0tLXwKfCBDaGF0IEdQVCA0IHwgNGdi
+ICB8IC0gICB8CgojIyMgUm9hZG1hcCBGZWF0dXJlcwoKRmVhdHVyZXMgeWFu
+ZyBha2FuIGRhdGFuZwoKMS4gW3hdIENyb3NzIFBsYXRmb3JtIChBbmRyb2lk
+IC8gbGludXggLyB3aW5kb3dzIC8gaW9zIC8gbWFjb3MpCjIuIFsgXSBEb2Nz
+CgojIyMgVEVTVEVEIE9OCgp8IE5PIHwgT1MgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIHwgQ1BVICAgICAgICAgICAgIHwgUkFNICAgICB8
+CnwtLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+fC0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLXwKfCAxICB8IFVidW50dSAy
+MC4wNCAgICAgICAgICAgICAgICAgICAgICAgICB8IEFNRCBSWVpFTiA1NTAw
+VSB8IDhHQiAgICAgfAoKCiMjIyBEZXZlbG9wbWVudAoKCmBgYGJhc2gKZ2l0
+IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2L2xsYW1hLmdpdCAt
+LXJlY3Vyc2l2ZQpjZCBsbGFtYQpgYGAKCgojIyMgQnVpbGQgU2hhcmVkIExp
+YnJhcnkKCmBgYGJhc2gKY2QgbmF0aXZlX2xpYgpybSAtcmYgYnVpbGQKbWtk
+aXIgYnVpbGQKY2QgYnVpbGQKY21ha2UgLURDTUFLRV9CVUlMRF9UWVBFPVJl
+bGVhc2UgLi4KY21ha2UgLS1idWlsZCAuCmBgYAoKCiMjIyBJbnN0YWxsIFBh
+Y2thZ2UKCkRhcnQKCmBgYGJhc2gKZGFydCBwdWIgYWRkIGxsYW1hX2RhcnQK
+YGBgCgpGbHV0dGVyOgoKYGBgYmFzaApkYXJ0IHB1YiBhZGQgbGxhbWFfZmx1
+dHRlcgpgYGAKCgojIyMgUXVpY2tzdGFydAoKCmBgYGRhcnQKCgpgYGA=
 
-WIP LLaMA (Language Learning for Machine Translation) adalah proyek riset yang diprakarsai oleh Facebook AI Research (FAIR) yang bertujuan untuk meningkatkan kualitas terjemahan mesin menggunakan pendekatan yang lebih alami dan berfokus pada bahasa asal.
-
-## Resources
-
-1. [Chat GPT 4](https://github.com/nomic-ai/gpt4all)
-2. [LLaMA](https://github.com/facebookresearch/llama)
-
-## How To Download Models
-
-
-1. [Facebook LLaMA](https://github.com/facebookresearch/llama/pull/73/files)
-
-### Memory Usage
-
-| Model      | Disk | Mem |
-|------------|------|-----|
-| Chat GPT 4 | 4gb  | -   |
-
-### Roadmap Features
-
-Features yang akan datang
-
-1. [x] Cross Platform (Android / linux / windows / ios / macos)
-2. [ ] Docs
-
-### TESTED ON
-
-| NO | OS                                   | CPU             | RAM     |
-|----|--------------------------------------|-----------------|---------|
-| 1  | Ubuntu 20.04                         | AMD RYZEN 5500U | 8GB     |
-
-
-### Development
-
-
-```bash
-git clone https://github.com/azkadev/llama.git --recursive
-cd llama
-```
-
-
-### Build Shared Library
-
-```bash
-cd native_lib
-rm -rf build
-mkdir build
-cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build .
-```
-
-
-### Install Package
-
-Dart
-
-```bash
-dart pub add llama_dart
-```
-
-Flutter:
-
-```bash
-dart pub add llama_flutter
-```
-
-
-### Quickstart
-
-
-```dart
-
-
-```
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
